@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Basic SEO -->
+    <title>Jan Oleksiak | Director of Engineering</title>
+    <meta name="description" content="Senior engineering leader with 9+ years of IT experience, including 7+ years in management and leadership roles." />
+    <link rel="canonical" href="https://joleksiak.pl/" />
+    
+    <!-- Open Graph for LinkedIn and social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jan Oleksiak | Director of Engineering" />
+    <meta property="og:description" content="Engineering and product leader focused on technology, delivery, and people - and blending them together effectively. Weightlifter, classic rock enthusiast, and occasional RPG player." />
+    <meta property="og:url" content="https://joleksiak.pl/" />
+    <meta property="og:image" content="https://joleksiak.pl/og-image.jpg" />
+    
+    <!-- Favicon: Replace with your own favicon in public/ folder -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Theme flash prevention: sets dark class BEFORE page renders -->
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
