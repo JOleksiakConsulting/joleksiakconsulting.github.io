@@ -20,10 +20,8 @@ Output will be in the `dist/` folder.
 ## Deploy to GitHub Pages
 
 1. Build the project: `npm run build`
-2. Push the `dist/` folder contents to the `gh-pages` branch, or configure GitHub Actions to do this automatically
-3. In GitHub repo settings → Pages, set source to the `gh-pages` branch
-
-The `CNAME` file in `public/` ensures your custom domain (joleksiak.pl) is preserved after each deploy.
+2. Push the `dist/` folder contents to the `gh-pages` branch or configure GitHub Actions to do this automatically
+3. Adjust settings in GitHub repo → Settings → Pages ([documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site))
 
 ## Customization
 
