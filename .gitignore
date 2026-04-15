@@ -22,3 +22,4 @@ dist-ssr
 *.sw?
 .env
 photo_large.jpg
+todo.md
