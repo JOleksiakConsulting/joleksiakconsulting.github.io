@@ -45,22 +45,22 @@ const careerHistory = [
 
 export default function Career() {
   return (
-    <section id="career" className="py-24 bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
+    <section id="career" className="py-28 md:py-32 bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 transition-colors duration-300">
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-5 tracking-tight transition-colors duration-300">
             Career Journey
           </h2>
-          <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto transition-colors duration-300">
-            From technical support through project management to engineering leadership - 
+          <p className="text-slate-600 dark:text-slate-400 max-w-prose mx-auto text-lg leading-relaxed transition-colors duration-300">
+            From technical support through project management to engineering leadership — 
             each role taught me something different about how teams and products actually work.
           </p>
         </div>
 
         <div className="relative">
-          <div className="absolute left-8 top-0 bottom-0 w-px bg-slate-200 dark:bg-slate-700 hidden md:block transition-colors duration-300" />
+          <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-accent-600/40 via-slate-200 to-slate-200 dark:from-accent-400/40 dark:via-slate-700 dark:to-slate-700 hidden md:block transition-colors duration-300" />
 
-          <div className="space-y-12">
+          <div className="space-y-10">
             {careerHistory.map((item, index) => (
               <div key={index} className="relative">
                 <div
@@ -71,21 +71,21 @@ export default function Career() {
                 </div>
 
                 <div
-                  className="md:ml-24 bg-white dark:bg-slate-900 rounded-xl p-6 md:p-8 ring-1 ring-slate-200 dark:ring-slate-800 hover:ring-slate-300 dark:hover:ring-slate-700 transition-all duration-200 transform-gpu"
+                  className="md:ml-24 bg-white dark:bg-slate-900 rounded-xl p-6 md:p-8 border border-slate-200 dark:border-slate-800 hover:border-accent-600/30 dark:hover:border-accent-400/30 hover:shadow-md hover:shadow-slate-200/50 dark:hover:shadow-slate-900/50 transition-all duration-200 transform-gpu"
                   style={{ backfaceVisibility: 'hidden' }}
                 >
                   <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                     <div>
-                      <h3 className="text-xl font-semibold text-slate-900 dark:text-white transition-colors duration-300">{item.role}</h3>
-                      <p className="text-accent-600 dark:text-accent-400 font-medium">{item.company}</p>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-white transition-colors duration-300">{item.role}</h3>
+                      <p className="text-accent-600 dark:text-accent-400 font-semibold">{item.company}</p>
                     </div>
-                    <div className="flex items-center text-slate-500 dark:text-slate-400 text-sm">
+                    <div className="flex items-center text-slate-500 dark:text-slate-400 text-sm font-medium">
                       <Calendar className="w-4 h-4 mr-2" />
                       {item.period}
                     </div>
                   </div>
 
-                  <p className="text-slate-600 dark:text-slate-300 mb-4 leading-relaxed transition-colors duration-300">
+                  <p className="text-slate-600 dark:text-slate-300 mb-5 leading-relaxed max-w-prose transition-colors duration-300">
                     {item.description}
                   </p>
 
@@ -93,7 +93,7 @@ export default function Career() {
                     {item.highlights.map((highlight) => (
                       <span
                         key={highlight}
-                        className="px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm rounded-full transform-gpu transition-colors duration-300"
+                        className="px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm rounded-full border border-slate-200 dark:border-slate-700 transform-gpu transition-colors duration-300"
                         style={{ backfaceVisibility: 'hidden' }}
                       >
                         {highlight}
