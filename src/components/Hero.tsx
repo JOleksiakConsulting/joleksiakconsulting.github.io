@@ -42,8 +42,8 @@ export default function Hero() {
 
           <div className="order-1 lg:order-2 lg:col-span-2 flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-accent-600/20 to-transparent rounded-full blur-2xl" />
-              <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-2xl ring-1 ring-slate-900/5 dark:ring-white/10 transform-gpu transition-colors duration-300">
+              <div className="absolute -inset-4 bg-gradient-to-br from-accent-600/20 to-transparent rounded-3xl blur-2xl" />
+              <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-2xl ring-1 ring-slate-900/5 dark:ring-white/10 transform-gpu transition-colors duration-300">
                 <img
                   src="/profile.jpg"
                   alt="Jan Oleksiak — Director of Engineering"
