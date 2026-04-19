@@ -20,29 +20,27 @@ export default function Hero() {
               Jan Oleksiak
             </h1>
             <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-10 leading-relaxed max-w-prose transition-colors duration-300">
-              Engineering and product leader with 9+ years in IT. I care about how teams 
-              work day to day — the technology, the processes, the communication, and most 
-              importantly, the people.
+              Engineering leader focused on people, technology, and how the two fit together.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="#contact"
                 className="inline-flex items-center px-7 py-3.5 bg-accent-600 hover:bg-accent-500 text-white font-semibold rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-accent-600/20"
               >
-                Get in Touch
+                Get in touch
               </a>
               <a
                 href="#about"
                 className="inline-flex items-center px-7 py-3.5 border border-slate-300 dark:border-slate-600 hover:border-accent-600 dark:hover:border-accent-400 text-slate-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 font-semibold rounded-lg transition-all duration-200"
               >
-                Learn More
+                See more
               </a>
             </div>
           </div>
 
           <div className="order-1 lg:order-2 lg:col-span-2 flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-accent-600/20 to-transparent rounded-3xl blur-2xl" />
+              <div className="absolute -inset-4 bg-gradient-to-br from-accent-600/10 to-transparent rounded-3xl blur-2xl" />
               <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-2xl ring-1 ring-slate-900/5 dark:ring-white/10 transform-gpu transition-colors duration-300">
                 <img
                   src="/profile.jpg"

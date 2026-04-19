@@ -44,10 +44,10 @@ export default function About() {
             </h2>
             <div className="space-y-5 text-slate-600 dark:text-slate-300 leading-relaxed max-w-prose transition-colors duration-300">
               <p>
-                As Director of Engineering, I work closely with CTO, staff engineers, engineering managers, and developers 
-                to deliver great products. I care about how teams operate 
-                day to day — the technology, the processes, the communication, the things that 
-                make or break delivery, and most importantly, the people.
+              As Director of Engineering at Piwik PRO, I work alongside the CTO, staff engineers, and engineering managers. 
+              The hardest part of this role is learning to be patient with impact. When you lead indirectly through 
+              managers, the distance between your actions and outcomes is longer and less visible. Something I 
+              had to get comfortable with.
               </p>
               <p>
               My background spans technical support and process management. Working on BI and data migration projects 

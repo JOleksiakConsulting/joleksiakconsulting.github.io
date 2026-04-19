@@ -38,7 +38,7 @@ export default function Contact() {
     <section id="contact" className="py-28 md:py-32 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-5 tracking-tight transition-colors duration-300">
-          Let's Connect
+          Get in touch
         </h2>
         <p className="text-slate-600 dark:text-slate-400 mb-14 max-w-prose mx-auto text-lg leading-relaxed transition-colors duration-300">
           I'm always interested in discussing engineering leadership, technology strategy,

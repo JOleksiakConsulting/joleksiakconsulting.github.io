@@ -64,7 +64,7 @@ export default function Career() {
             {careerHistory.map((item, index) => (
               <div key={index} className="relative">
                 <div
-                  className="hidden md:flex absolute left-0 w-16 h-16 bg-white dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-700 rounded-full items-center justify-center z-10 transform-gpu transition-colors duration-300"
+                  className="hidden md:flex absolute left-0 w-16 h-16 bg-white dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-700 rounded-3xl items-center justify-center z-10 transform-gpu transition-colors duration-300"
                   style={{ backfaceVisibility: 'hidden' }}
                 >
                   <Building2 className="w-6 h-6 text-accent-600 dark:text-accent-400" />
