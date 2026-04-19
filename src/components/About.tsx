@@ -44,7 +44,7 @@ export default function About() {
             </h2>
             <div className="space-y-5 text-slate-600 dark:text-slate-300 leading-relaxed max-w-prose transition-colors duration-300">
               <p>
-              As Director of Engineering at Piwik PRO, I work alongside the CTO, staff engineers, and engineering managers. 
+              As Director of Engineering at Piwik PRO, I work alongside the CTO, staff engineers, engineering managers and developers. 
               The hardest part of this role is learning to be patient with impact. When you lead indirectly through 
               managers, the distance between your actions and outcomes is longer and less visible. Something I 
               had to get comfortable with.
