@@ -55,7 +55,7 @@ export default function About() {
               I worked hands-on with developers and DevOps engineers, which deepened my technical side.
               </p>
               <p>
-                If you're into personality frameworks — my top 5 CliftonStrengths are Responsibility, 
+                If you're into personality frameworks - my top 5 CliftonStrengths are Responsibility, 
                 Maximizer, Harmony, Relator, and Analytical. 
               </p>
               <p>

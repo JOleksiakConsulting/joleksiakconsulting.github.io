@@ -44,7 +44,7 @@ export default function Hero() {
               <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-2xl ring-1 ring-slate-900/5 dark:ring-white/10 transform-gpu transition-colors duration-300">
                 <img
                   src="/profile.jpg"
-                  alt="Jan Oleksiak — Director of Engineering"
+                  alt="Jan Oleksiak - Director of Engineering"
                   loading="eager"
                   className="w-full h-full object-cover"
                 />

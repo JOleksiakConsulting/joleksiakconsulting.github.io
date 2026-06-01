@@ -52,7 +52,7 @@ export default function Career() {
             Career Journey
           </h2>
           <p className="text-slate-600 dark:text-slate-400 max-w-prose mx-auto text-lg leading-relaxed transition-colors duration-300">
-            From technical support through project management to engineering leadership — 
+            From technical support through project management to engineering leadership - 
             each role taught me something different about how teams and products actually work.
           </p>
         </div>
