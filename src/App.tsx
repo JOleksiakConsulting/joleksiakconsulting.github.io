@@ -1,5 +1,5 @@
 import { ThemeProvider } from './context/ThemeContext';
-import ThemeToggle from './components/ThemeToggle';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Career from './components/Career';
@@ -17,7 +17,7 @@ function App() {
         Skip to main content
       </a>
       <div className="min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
-        <ThemeToggle />
+        <Navbar />
         <main id="main-content">
           <Hero />
           <About />

@@ -40,12 +40,12 @@ Supply-chain attacks often rely on installing a malicious version within hours
 of it being published. This project sets a cooldown in `.npmrc`:
 
 ```ini
-minimum-release-age=14d
+min-release-age=14
 ```
 
 npm will refuse to install any package version published less than 14 days ago.
-The window is **relative to the current date** (computed dynamically at install
-time), not a hardcoded cutoff. Requires npm 11+.
+The value is in **days** (no unit suffix). The window is relative to the current
+date, computed dynamically at install time. Requires npm 11.10+.
 
 ## Customization
 
