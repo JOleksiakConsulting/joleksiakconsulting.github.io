@@ -66,7 +66,7 @@ export default function About() {
 
             <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="border-l-2 border-accent-600 dark:border-accent-400 pl-4">
-                <p className="text-4xl font-extrabold text-accent-600 dark:text-accent-400">9+</p>
+                <p className="text-4xl font-extrabold text-accent-600 dark:text-accent-400">10+</p>
                 <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">Years in IT</p>
               </div>
               <div className="border-l-2 border-accent-600 dark:border-accent-400 pl-4">
