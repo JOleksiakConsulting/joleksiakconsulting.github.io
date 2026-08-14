@@ -35,7 +35,7 @@ const expertise = [
 
 export default function About() {
   return (
-    <section id="about" className="py-28 md:py-32 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
+    <section id="about" className="pt-28 md:pt-32 pb-24 md:pb-28 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-start">
           <div>

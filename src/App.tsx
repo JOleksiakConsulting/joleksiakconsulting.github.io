@@ -2,6 +2,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
 import Career from './components/Career';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
         <main id="main-content">
           <Hero />
           <About />
+          <Testimonials />
           <Career />
           <Contact />
         </main>
