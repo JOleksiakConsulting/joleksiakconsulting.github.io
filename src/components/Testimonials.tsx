@@ -22,6 +22,12 @@ const testimonials: Testimonial[] = [
     company: 'Piwik PRO',
   },
   {
+    quote: 'He is one of the few people who can juggle multiple tasks while still noticing important details that others overlook.\n\nMore than one engineer has been surprised by how deeply he can delve into the details.',
+    name: 'Jarosław Zywert',
+    role: 'Staff Engineer',
+    company: 'Piwik PRO',
+  },
+  {
     quote: 'Janek builds strong relationships across the board - with senior leadership, fellow managers, and engineers alike - and people trust him because of it. Every conversation with him ended with a clear conclusion, and working through problems together was consistently fruitful.',
     name: 'Wiktor Lewandowski',
     role: 'Director of DevOps & Security',
