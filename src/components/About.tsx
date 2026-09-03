@@ -1,35 +1,35 @@
-import { Users, Code, Boxes, Lightbulb, TrendingUp, Layers } from 'lucide-react';
+import { Users, Code, Boxes, Wallet, TrendingUp, Layers } from 'lucide-react';
 
 const expertise = [
   {
     icon: Users,
     title: 'Team Leadership',
-    description: 'Growing and supporting engineering teams of 60+ people through team of engineering managers',
+    description: 'Growing and supporting engineering managers and the teams behind them',
   },
   {
     icon: Code,
-    title: 'Technical Strategy',
+    title: 'Technology Strategy',
     description: 'Defining technology roadmaps and aligning technical decisions with product goals',
   },
   {
     icon: Boxes,
     title: 'Platform Engineering',
-    description: 'Working with teams on infrastructure, CI/CD, and developer experience',
+    description: 'Shaping infrastructure, CI/CD, and developer experience with staff engineers',
   },
   {
-    icon: Lightbulb,
-    title: 'Innovation',
-    description: 'Exploring new technologies and driving R&D initiatives',
+    icon: Wallet,
+    title: 'Budget Management',
+    description: 'Owning the engineering budget - what we build, what we buy, what we stop paying for',
   },
   {
     icon: TrendingUp,
-    title: 'Agile Delivery',
-    description: 'Improving processes to help teams ship faster and more reliably',
+    title: 'AI Adoption',
+    description: 'Driving adoption of AI tools without compromising on quality',
   },
   {
     icon: Layers,
     title: 'Product Architecture',
-    description: 'Deep understanding of complex product architecture and how systems fit together',
+    description: 'Keeping the whole system in view - how the pieces fit and where they strain',
   },
 ];
 
@@ -44,15 +44,15 @@ export default function About() {
             </h2>
             <div className="space-y-5 text-slate-600 dark:text-slate-300 leading-relaxed max-w-prose transition-colors duration-300">
               <p>
-              As Director of Engineering at Piwik PRO, I work alongside the CTO, staff engineers, engineering managers and developers. 
               The hardest part of this role is learning to be patient with impact. When you lead indirectly through 
               managers, the distance between your actions and outcomes is longer and less visible. Something I 
               had to get comfortable with.
               </p>
+              <p>As Director of Engineering at Piwik PRO, I work alongside the CPTO, staff engineers, engineering managers and developers. I also keep up to date with AI evolution by firing up an IDE and a terminal from time to time and building something, big or small.</p>
               <p>
               My background spans technical support and process management. Working on BI and data migration projects 
-              gave me a solid mix of technical and business perspective. Later, as an engineering manager, 
-              I worked hands-on with developers and DevOps engineers, which deepened my technical side.
+              gave me a solid mix of technical and business perspectives. Later, as an engineering manager, 
+              I worked hands-on with developers and DevOps engineers, which deepened my technical side. 
               </p>
               <p>
                 If you're into personality frameworks - my top 5 CliftonStrengths are Responsibility, 

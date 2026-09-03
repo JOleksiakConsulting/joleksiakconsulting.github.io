@@ -6,15 +6,15 @@ const careerHistory = [
     role: 'Director of Engineering',
     period: '2024 - Present',
     description:
-      'Responsible for delivering quality product on time while shaping technology strategy alongside CTO, staff engineers, and engineering managers. Focused on making sure tech decisions support where the company and product are heading.',
-    highlights: ['Technology Strategy', 'Product Delivery', 'Engineering Leadership', "Budget Management"],
+      'Leading engineering across seven teams building and running two products: Piwik PRO Analytics Suite and Cookie Information Consent Management Platform. Working with the CPTO, staff engineers, and engineering managers on delivery priorities, operations, and budget - balancing what ships now with long-term performance and stability. Driving AI adoption: which tools we invest in, what they cost, and how teams actually use them. A lot of what I do now runs through a team of engineering managers.',
+    highlights: ['Technology Strategy', 'AI Adoption', 'Product Delivery', 'Engineering Leadership', 'Budget Management'],
   },
   {
     company: 'Piwik PRO',
-    role: 'Product / Engineering Manager',
+    role: 'Engineering Manager',
     period: '2021 - 2024',
     description:
-      'Led the DevOps team building the Piwik PRO Analytics Suite platform. Managed feature backlog, handled releases and deployments, and kept Azure costs and capacity in check. Servant leadership approach - helping the team do their best work.',
+      'Led the DevOps team building the Piwik PRO Analytics Suite platform and running Azure-based production environments handling the majority of the Piwik PRO\'s traffic. Owned the feature backlog, handled releases and deployments, and kept Azure costs and capacity in check. Took a servant leadership approach, working as one of the team members with a different skillset. The team made custom mugs with my face, a monument more lasting than bronze.',
     highlights: ['DevOps', 'Azure', 'Release Management', 'Platform Engineering', 'Team Leadership'],
   },
   {
@@ -38,7 +38,7 @@ const careerHistory = [
     role: 'Service Desk / Service Process Controller',
     period: '2016 - 2018',
     description:
-      'Started on 1st line IT support, quickly moved into service process controller role - coordinating the team, handling major incidents, and building tools to automate manual work. This is where I discovered I liked fixing how things work, not just fixing things.',
+      'Started in first line IT support, quickly moved into a service process controller role - coordinating the team, handling major incidents, and building tools to automate manual work. This is where I discovered I liked fixing how things work, not just fixing things.',
     highlights: ['IT Support', 'Process Control', 'Excel & Power BI', 'Team Coordination'],
   },
 ];
