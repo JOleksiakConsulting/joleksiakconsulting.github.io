@@ -6,6 +6,7 @@ import Testimonials from './components/Testimonials';
 import Career from './components/Career';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ConsentSettingsButton from './components/ConsentSettingsButton';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <ConsentSettingsButton />
       </div>
     </ThemeProvider>
   );
