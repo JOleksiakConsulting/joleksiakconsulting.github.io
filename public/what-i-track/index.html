@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>What I track | Jan Oleksiak</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+        font: 16px/1.6 system-ui, -apple-system, sans-serif;
+        color: #334155;
+        background: #f8fafc;
+      }
+      h1, h2 { color: #0f172a; line-height: 1.25; }
+      h2 { margin-top: 2rem; font-size: 1.15rem; }
+      code { font-size: 0.9em; }
+      a { color: inherit; }
+      @media (prefers-color-scheme: dark) {
+        body { color: #cbd5e1; background: #020617; }
+        h1, h2 { color: #f1f5f9; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>What I track</h1>
+    <p>
+      Short version: I use Piwik PRO to see how many people visit
+      <a href="/">joleksiak.pl</a> and what they look at. I don't sell your data or use it
+      for advertising. Piwik PRO processes analytics data on my behalf.
+      This page does not load analytics scripts.
+    </p>
+
+    <h2>Who is responsible</h2>
+    <p>
+      Jan Oleksiak, the owner of this site. Contact:
+      <a href="#" id="email">click to email me</a>.
+    </p>
+
+    <h2>If you agree to analytics</h2>
+    <ul>
+      <li>page views, scroll depth, link clicks and time spent on the page,</li>
+      <li>heatmaps of how the page is used,</li>
+      <li>technical data: browser, device type, screen size, referring site,</li>
+      <li>your IP address with the last part removed (e.g. <code>203.0.113.0</code> instead of <code>203.0.113.42</code>) and approximate location (country/city),</li>
+      <li>cookies: <code>_pk_id.*</code> (recognises returning visitors, up to about 13 months) and <code>_pk_ses.*</code> (current visit, 30 minutes).</li>
+    </ul>
+    <p>Legal basis: your consent (Art. 6(1)(a) GDPR).</p>
+
+    <h2>If you decline</h2>
+    <p>
+      Nothing is stored on your device for analytics: no analytics cookies, no local storage.
+      Piwik PRO still records your visit in its anonymous tracking mode: page views,
+      scroll depth (25/50/75/100%), link clicks, time on page, technical data and your
+      interaction with the consent banner. IP is fully anonymized. Returning visitors are not recognized.
+    </p>
+    <p>Legal basis: my legitimate interest in basic visit statistics (Art. 6(1)(f) GDPR).</p>
+
+    <h2>Either way</h2>
+    <ul>
+      <li>
+        Your choice is stored in the <code>ppms_privacy_*</code> cookie for 1 year,
+        so the banner doesn't ask you on every visit.
+      </li>
+      <li>
+        The site is hosted on GitHub Pages. GitHub logs visitors' IP addresses for
+        security purposes. See
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.
+      </li>
+      <li>Fonts are served from this site, not from Google.</li>
+    </ul>
+
+    <h2>Where the data goes and for how long</h2>
+    <p>
+      Analytics data is processed by Piwik PRO and hosted by Elastx in Sweden (EU).
+      GitHub is based in the USA. Transfers to GitHub rely on the EU-US Data Privacy
+      Framework and standard contractual clauses.
+    </p>
+    <p>
+      Analytics data in Piwik PRO is kept for 25 full months. After that it is deleted automatically.
+    </p>
+
+    <h2>Your rights</h2>
+    <ul>
+      <li>
+        You can withdraw or change your consent at any time with the small cookie icon in
+        the bottom-left corner of the <a href="/">main page</a>. Withdrawing consent doesn't
+        affect processing that happened before.
+      </li>
+      <li>
+        You can ask me for access to your data, correction, deletion, restriction of
+        processing or data portability, and you can object to processing based on
+        legitimate interest. Just email me.
+      </li>
+      <li>
+        You can also complain directly to a data protection authority. In Poland that's
+        the President of the Personal Data Protection Office
+        (<a href="https://uodo.gov.pl/">UODO</a>).
+      </li>
+    </ul>
+
+    <p><a href="/">&larr; Back to the site</a></p>
+
+    <script>
+      document.getElementById('email').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.location.href = 'mailto:' + atob('Y29udGFjdEBqb2xla3NpYWsucGw=');
+      });
+    </script>
+  </body>
+</html>
